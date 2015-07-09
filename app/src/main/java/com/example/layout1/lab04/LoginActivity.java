@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 /**
-* Classe que faz a confirmação do login
+* Classe que faz a validação do acesso
 * @author Elaine.Martins
 * 
 */
