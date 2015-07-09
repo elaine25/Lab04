@@ -8,8 +8,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 /**
- * Created by MarileneQuintanilhaM on 24/06/2015.
- */
+* Classe que faz a confirmação do login
+* @author Elaine.Martins
+* 
+*/
 public class LoginActivity extends Activity{
 
     private Button entrarbotao;
@@ -37,11 +39,11 @@ public class LoginActivity extends Activity{
                 String loginInserido = login.getText().toString();
                 String senhaInserido = senha.getText().toString();
 
-                if (loginInserido.equals("Natalia") && senhaInserido.equals("1994")) {
-                    result.setText("Bem vindo");
+                if (loginInserido.equals("Elaine") && senhaInserido.equals("1980")) {
+                    result.setText("Boas vindas ao nosso site! Agradecemos pela preferência.");
                 }
                 else{
-                    result.setText("Login e/ou senha errada");
+                    result.setText("Usuário e senha inválidos.");
                 }
             }
         });
